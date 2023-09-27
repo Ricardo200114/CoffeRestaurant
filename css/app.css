@@ -1,0 +1,334 @@
+body {
+  background-color: #ffffff !important;
+  font-family: "Open Sans", sans-serif;
+}
+.history-container {
+  margin-top: 5rem !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.center {
+  margin-left: 25%;
+}
+.margin-top-0 {
+  margin-top: 0px !important;
+}
+.center-3 {
+  margin-left: 33.3%;
+}
+.center-2 {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+header { 
+  /* height: 150px; */
+  position: sticky;
+  top: 0;
+}
+header img {
+  margin-top: px;
+  height: 150px;
+}
+footer {
+  background-color: black;
+  margin-top: 1rem;
+}
+footer img {
+  margin-top: px;
+  height: 150px;
+}
+.logo {
+  height: 90px;
+  padding-top: 20px;
+  transition: all ease 0.1s;
+  margin-left: 2rem;
+}
+.cafe {
+  transition: all ease 0.1s;
+}
+.cafe:hover {
+  scale: 90%;
+}
+.logo:hover {
+  scale: 85%;
+}
+
+/* VERSION 1 */
+/* .header-1 { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
+  padding: 30px 10%;
+} */
+
+.header-1 { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+.img-cafe {
+  height: 100%;
+}
+.gris {
+  color: #555454;
+  transition: all ease 0.3s;
+}
+.gris:hover {
+  color: rgb(80, 80, 80);
+  scale: 125%;
+}
+
+
+
+/* Andre -------------------------------------------------- */
+
+.section-container {
+  display: grid;
+  background-color: black;
+  color: white;
+  grid-template-columns: 1fr;
+}
+
+.p-container {
+  text-align: center;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  margin-top: 2rem;
+}
+
+.image-container {
+  margin-top: -7rem;
+  margin-left: 6rem;
+}
+
+.scroll-container {
+  background-color: #101010;
+}
+
+#carouselExampleControls {
+  position: unset !important;
+}
+
+.carousel-inner {
+  position: unset !important;
+}
+
+
+.carousel-item {
+  position: unset !important;
+}
+
+.inner-item {
+  position: unset !important;
+}
+
+.carousel-control-prev {
+}
+
+.carousel-control-next {
+}
+
+/* -------------------------------------------------- */
+
+
+
+
+
+
+
+@media (max-width: 488px) {
+  .header-1 {
+    justify-content: center;
+    display: inline;
+  }
+  .cafe {
+    display: none;
+  }
+  .enlace {
+    display: flex;
+    flex-direction: row;
+  }
+  body {
+    text-align: center;
+  }
+}
+.main-nav {
+  background-color: #0b1212;
+}
+.enlace {
+  color: #bdbdbd;
+  text-decoration: none;
+  padding: 10px 0;
+  width: 162.5px;
+  display: inline-block;
+  text-align: center;
+  transition: all ease 0.3s;
+}
+.nav-aling {
+  text-align: center;
+}
+
+.enlace:hover {
+  color: white;
+  background-color: black;
+}
+@media (max-width: 768px) {
+  footer .logo {
+    display: none;
+  }
+  footer .redes {
+    display: none;
+  }
+}
+.nav-footer {
+  margin-top: 12px;
+}
+.enlace-footer {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #b2b5c8;
+}
+.enlace-footer:hover {
+  font-weight: bold;
+}
+.redes img {
+  scale: 25%;
+  transition: all ease 0.3s;
+}
+.redes:hover img {
+  scale: 35%;
+}
+
+.scale {
+  transition: all ease-in-out 0.3s;
+}
+.scale:hover {
+  scale: 80%;
+}
+
+.derechos {
+  background-color: black;
+  color: #b2b5c8;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+}
+main {
+  padding: 40px 0;
+  color: rgb(0, 0, 0);
+  
+}
+
+.container{
+  text-align: center;
+}
+
+/*carlos*/
+@media (min-width: 768px) {
+  #caja_central{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #caja_central{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+.form-info {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form-input {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.mb-3 {
+  width: 90%;
+}
+
+.form-info p {
+  text-align: justify;
+}
+
+#icon {
+  text-decoration: none;
+}
+
+.custom-table > :not(caption) > * > * {
+  width: 50%;
+  text-align: center;
+}
+.bold {
+  font-weight: bold!important;
+  font-size: 1.8rem;
+}
+/*Carlos*/
+.name-center {
+  text-align: center;
+}
+#photo{
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#box{
+  column-count: 2;
+  column-gap: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 75px;
+  height: 75px;
+}
+
+
+#packing1{
+  float: left;
+  width: 60%;
+  height: 60%;
+}
+
+#granos{
+  width: 100%;
+  height: 100%;
+}
+/*Carlos*/
